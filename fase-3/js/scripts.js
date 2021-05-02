@@ -26,5 +26,19 @@ $("#btn-inicio").click(function () {
     $("#cargue").load('./page/inicio.html');
 
 });
+                            
+$("#btn-tema1").click(function () {
 
+    $("#cargue").load('./page/tema1.html');
+});
 
+$("#btn-tema2").click(function()    {
+
+ $("#cargue").load('./page/tema2.html');
+});
+
+$("#btn-recurso1").click(function()    {
+
+    $("#cargue").load('./page/recurso1.html');
+
+});
