@@ -42,3 +42,15 @@ $("#btn-recurso1").click(function()    {
     $("#cargue").load('./page/recurso1.html');
 
 });
+
+$("#ap1").click(function()    {
+
+    $("#cargue").load('./page/aprendizaje1.html');
+
+});
+
+$("#ap2").click(function()    {
+
+    $("#cargue").load('./page/aprendizaje2.html');
+
+});
