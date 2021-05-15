@@ -44,6 +44,7 @@ min-height: 100px;
            justify-content: center;
            grid-row: span2;
        }          
+
        .contenedor.contenido ,
      .contenedor.Alumno {
 	background: #55a8fd;
@@ -52,7 +53,10 @@ min-height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+
+
         }
+
        .contenedor.introduccion  {
            background: #122030;
            color: #fff;
@@ -65,9 +69,13 @@ min-height: 100px;
 
             }
             .contenedor.Alumno {
+
+            
             grid-column: 1/-1;
         }
      
+
+
         }
             
     
