@@ -22,9 +22,7 @@ $("#cargue").load('./page/principal.html');
 
 
 $("#btn-inicio").click(function () {
-
     $("#cargue").load('./page/inicio.html');
-
 });
 
 $("#btn-tema1").click(function () {
@@ -38,15 +36,15 @@ $("#btn-tema2").click(function () {
 });
 
 $("#btn-recurso1").click(function () {
-
     $("#cargue").load('./page/recurso1.html');
+});
 
+$("#btn-recurso2").click(function () {
+    $("#cargue").load('./page/recurso2.html');
 });
 
 $("#ap1").click(function () {
-
     $("#cargue").load('./page/aprendizaje1.html');
-
 });
 
 $("#ap2").click(function () {
