@@ -10287,3 +10287,24 @@ body {
      text-align: center;
      font-size: 20px;
 }
+
+.imgtem{
+  height: 200px;
+  width: 200px;
+  float: right;
+  position: absolute;
+}
+
+.text{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  margin-left: 200px;
+  text-align: center;
+}
+
+.imgtem2{
+  height: 200px;
+  width: 200px;
+  float:inline-start;
+  position: absolute;
+}
