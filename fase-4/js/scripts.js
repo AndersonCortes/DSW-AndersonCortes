@@ -1,8 +1,6 @@
-/*!
-    * Start Bootstrap - SB Admin v6.0.2 (https://startbootstrap.com/template/sb-admin)
-    * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-sb-admin/blob/master/LICENSE)
-    */
+
+$("#cargue").load('./page/principal.html');
+
 (function ($) {
     "use strict";
 
@@ -21,35 +19,35 @@
     });
 })(jQuery);
 
+
+
 $("#btn-inicio").click(function () {
-
     $("#cargue").load('./page/inicio.html');
-
 });
-                            
+
 $("#btn-tema1").click(function () {
 
     $("#cargue").load('./page/tema1.html');
 });
 
-$("#btn-tema2").click(function()    {
+$("#btn-tema2").click(function () {
 
- $("#cargue").load('./page/tema2.html');
+    $("#cargue").load('./page/tema2.html');
 });
 
-$("#btn-recurso1").click(function()    {
-
+$("#btn-recurso1").click(function () {
     $("#cargue").load('./page/recurso1.html');
-
 });
 
-$("#ap1").click(function()    {
+$("#btn-recurso2").click(function () {
+    $("#cargue").load('./page/recurso2.html');
+});
 
+$("#ap1").click(function () {
     $("#cargue").load('./page/aprendizaje1.html');
-
 });
 
-$("#ap2").click(function()    {
+$("#ap2").click(function () {
 
     $("#cargue").load('./page/aprendizaje2.html');
 
